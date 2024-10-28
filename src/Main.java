@@ -36,5 +36,26 @@ public class Main {
         for ( int i = 1; i < 1000; i *= 2){
             System.out.print(i + " ");
         }
+//        Task 8
+        System.out.println("\n\nЗадание 8\n");
+
+        int amountSavings = 0;
+        for ( int i = 1; i <= 12; i++){
+            System.out.printf("Месяц %d, сумма накоплений равна %d рублей\n", i, amountSavings+=29000);
+        }
+//        Task 9
+        System.out.println("\nЗадание 9\n");
+        int deposit = 29000;
+        int bill = 0;
+        for ( int i = 1; i <= 12; i++){
+            bill = bill + deposit;
+            bill = bill + bill / 100;
+            System.out.printf("Месяц %d, сумма накоплений равна %d рублей\n", i, bill );
+        }
+//        Task 10
+        System.out.println("\nЗадание 10\n");
+        for ( int i = 1; i <= 10; i++){
+            System.out.printf("2*%d=%d\n", i, i*2);
+        }
     }
 }
