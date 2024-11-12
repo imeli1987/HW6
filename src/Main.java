@@ -52,7 +52,7 @@ public class Main {
             bill = bill + bill / 100;
             System.out.printf("Месяц %d, сумма накоплений равна %d рублей\n", i, bill );
         }
-//        Task 10
+//        Task 10.
         System.out.println("\nЗадание 10\n");
         for ( int i = 1; i <= 10; i++){
             System.out.printf("2*%d=%d\n", i, i*2);
